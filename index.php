@@ -1,7 +1,17 @@
 <?php
 
-include_once './appSite/app.visao/header.html';
+require_once './vendor/autoload.php';
 
-include_once './appSite/app.visao/menuInicial.html';
+$app = new Slim\Slim();
 
-include_once './appSite/app.visao/footer.html';
+$app->config('debug', TRUE);
+
+$app->get('/', function (){
+    
+    $page = new SysMax\Page();
+    
+    $page->setTpl('index');
+    
+});
+
+$app->run();

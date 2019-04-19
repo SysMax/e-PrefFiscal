@@ -13,7 +13,7 @@ use SysMax\Model;
  */
 class Page {
     private $tpl;
-    private $options;
+    private $options = [];
     private $defaults = [
         "header"=> true,
         "footer"=> true,
@@ -24,8 +24,8 @@ class Page {
         $this->options = array_merge($this->defaults, $opts);
 
         $config = array(
-            "tpl_dir" => $_SERVER["DOCUMENT_ROOT"]."/SysMax/e-Fiscalizacao/views/",
-             "cache_dir" => $_SERVER["DOCUMENT_ROOT"]."/SysMax/e-Fiscalizacao/views-cache/",
+            "tpl_dir" => $_SERVER["DOCUMENT_ROOT"]."/SysMax/e-PrefFiscal/views/",
+             "cache_dir" => $_SERVER["DOCUMENT_ROOT"]."/SysMax/e-PrefFiscal/views-cache/",
              "debug" => FALSE
             );
 
