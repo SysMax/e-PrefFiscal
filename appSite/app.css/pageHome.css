@@ -1,0 +1,27 @@
+/* 
+    Created on : 08/04/2019, 18:45:35
+    Author     : SysMax - Sistemas Comerciais.
+*/
+
+@charset "utf-8";
+
+
+.is-active .icon span:before{
+    content: attr(data-text);
+}
+.navbar-item.is-active{
+    width: 100%;
+}
+.is-active{
+    background-color: dimgray;
+}
+span.icon{
+    padding: 5px 15px;
+}
+.navbar, #navbarTopo {
+    background-color: #546E7A;
+}
+.navbar-burger {
+    border-radius: 50%;
+    background-color: #23D160;
+}

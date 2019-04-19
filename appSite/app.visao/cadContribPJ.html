@@ -1,0 +1,278 @@
+<?php
+include_once './appSite/app.visao/NavMenuControle.html';
+?>    
+<section class="hero is-success is-medium">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="column is-4 is-offset-4">
+                <h3 class="title has-text-grey">Cadastro de Contribuinte Pessoa Jur&iacute;dica</h3>
+                <p class="subtitle has-text-grey">..::: Informe os dados e confirme seu cadastro :::..</p>
+            </div>
+            <div class="box column">
+                <form action="post">
+                    <div class="columns">
+                        <div class="column is-2">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="C&oacute;digo de atividades..." maxlength="20" autofocus required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-5">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="Raz&atilde;o social..." maxlength="80" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-3">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="Nome de fantasia..." maxlength="30" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-2">
+                            <div id="dtFundacao" class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="Data de funda&ccedil;&atilde;o" maxlength="10" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="CNPJ n°..." maxlength="18" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="Insc. Estadual..." maxlength="30" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="Insc. Municipal..." maxlength="9" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="Ramo de atividades..." maxlength="40" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="CNAE - 01..." maxlength="10" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="CNAE - 02..." maxlength="10">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="CNAE - 03..." maxlength="10">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="S&oacute;cio ostensivo..." maxlength="60" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="S&oacute;cio participante..." maxlength="60">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coluns">
+                        <div class="column">
+                            <div class="field">
+                                <div class="control">
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column is-5">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="Endere&ccedil;o..." maxlength="80" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-1">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="N&uacute;mero..." maxlength="12" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-3">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="Complemento..." maxlength="30" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-3">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="Bairro..." maxlength="30" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column is-4">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="Munic&iacute;pio..." maxlength="40" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-2">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="CEP..." maxlength="9" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-2">
+                            <div class="select">
+                                <div class="control">
+                                    <select class="select is-medium">
+                                        <optgroup label="Regi&atilde;o Norte">
+                                            <option value="AC">Acre</option>
+                                            <option value="AP;">Amap&aacute;</option>
+                                            <option value="AM">Amazonas</option>
+                                            <option value="PA;">Par&aacute;</option>
+                                            <option value="RO">Rond&ocirc;nia</option>
+                                            <option value="RR">Roraima</option>
+                                            <option value="TO">Tocantins</option>
+                                        </optgroup>
+                                        <optgroup label="Regi&atilde;o Nordeste">
+                                            <option value="AL">Alagoas</option>
+                                            <option value="BA">Bahia</option>
+                                            <option value="CE;">Cear&aacute;</option>
+                                            <option value="MA">Maranh&atilde;o</option>
+                                            <option value="PB">Para&iacute;ba</option>
+                                            <option value="PE">Pernambuco</option>
+                                            <option value="PI">Piau&iacute;</option>
+                                            <option value="RN">Rio Grande do Norte</option>
+                                            <option value="SE">Sergipe</option>
+                                        </optgroup>
+                                        <optgroup label="Regi&atilde;o Centro-Oeste">
+                                            <option selected value="GO">Goi&aacute;s</option>
+                                            <option value="MT">Mato Grosso</option>
+                                            <option value="MS">Mato Grosso do Sul</option>
+                                        </optgroup>
+                                        <optgroup label="Regi&atilde;o Sudeste">
+                                            <option value="ES">Esp&iacute;rito Santo</option>
+                                            <option value="MG">Minas Gerais</option>
+                                            <option value="RJ">Rio de Janeiro</option>
+                                            <option value="SP">S&atilde;o Paulo</option>
+                                        </optgroup>
+                                        <optgroup label="Regi&atilde;o Sul">
+                                            <option value="PR">Paran&aacute;</option>
+                                            <option value="RS">Rio Grande do Sul</option>
+                                            <option value="SC">Santa Catarina</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-2">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="tel" placeholder="Telefone..." maxlength="13" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-2">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="tel" placeholder="Celular..." maxlength="14" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="email" placeholder="E-mail..." maxlength="120" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="text" placeholder="Observa&ccedil;&otilde;es..." maxlength="120" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coluns">
+                        <div class="column">
+                            <div class="field">
+                                <div class="control">
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <a class="button is-success is-rounded is-medium">
+                                <span class="icon is-medium">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                </span>
+                                <span>Confirmar</span>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a class="button is-info is-rounded is-medium">
+                                <span class="icon is-medium">
+                                    <i class="fa fa-undo" aria-hidden="true"></i>
+                                </span>
+                                <span>Limpar</span>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a class="button is-rounded is-danger is-medium">
+                                <span class="icon is-medium">
+                                    <i class="fa fa-power-off" aria-hidden="true"></i>
+                                </span>
+                                <span>Sair</span>
+                            </a>
+                        </div>
+                    </div>
+                </form> 
+            </div>
+        </div>
+    </div>
+</section>

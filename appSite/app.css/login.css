@@ -1,0 +1,53 @@
+/* 
+    Created on : 29/03/2019, 22:37:58
+    Author     : SysMax - Sistemas Comerciais.
+*/
+
+@charset "utf-8";
+
+
+html, body {
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+#navControle{
+    background-color: #78909C;
+}
+.hero.is-success {
+  background: none;
+}
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.box {
+  margin-top: 5rem;
+}
+.avatar {
+  margin-top: -80px;
+  padding-bottom: 30px;
+}
+.avatar img {
+  padding: 5px;
+/*  background: lightsteelblue;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);*/
+}
+h3.title{
+    margin-top: -95px;
+}
+input {
+  font-weight: 300;
+}
+p {
+  font-weight: 700;
+}
+p.subtitle {
+  padding-top: 0.5rem;
+}
+
+.footer {
+    background: #546E7A;
+}

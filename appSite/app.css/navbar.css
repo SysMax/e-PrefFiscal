@@ -1,0 +1,71 @@
+/* 
+    Created on : 29/03/2019, 22:37:58
+    Author     : SysMax - Sistemas Comerciais.
+*/
+
+@charset "utf-8";
+
+body {
+    background: url('../app.img/background.png') repeat;
+}
+nav.navbar {
+    padding: 5px 0px;
+    display: flex;
+}
+#navTopo {
+    background-color: #78909C;
+}
+#navControle {
+    background-color: #546E7A;
+}
+.navbar-item {
+    padding: .15rem .2rem;
+}
+.navbar-item img {
+    max-height: 100%;    
+}
+#novo.button:hover {
+    background-color: limegreen;
+    border-color: greenyellow;
+    color: black;
+}
+#novo.button:focus{
+    background-color: limegreen;
+    color: white;
+}
+#alterar.button:hover {
+    background-color: dodgerblue;
+    border-color: blue;
+    color: black;
+}
+#alterar.button:focus{
+    background-color: dodgerblue;
+    color: white;
+}
+#excluir.button:hover {
+    background-color: orangered;
+    border-color: darkred;
+    color: black;
+}
+#excluir.button:focus{
+    background-color: orangered;
+    color: white;
+}
+#pesquisar.button:hover {
+    background-color: violet;
+    border-color: darkorchid;
+    color: black;
+}
+#pesquisar.button:focus{
+    background-color: violet;
+    color: white;
+}
+#imprimir.button:hover {
+    background-color: goldenrod;
+    border-color: gold;
+    color: black;
+}
+#imprimir.button:focus{
+    background-color: goldenrod;
+    color: white;
+}
