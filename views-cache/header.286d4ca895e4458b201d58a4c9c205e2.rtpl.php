@@ -13,9 +13,4 @@
     <link href="./appSite/app.css/navbar.css" rel="stylesheet" type="text/css"/>
 
     <body>
-        
-        &lt;?php 
-            
-        ?&gt;
-
         <div id="main">

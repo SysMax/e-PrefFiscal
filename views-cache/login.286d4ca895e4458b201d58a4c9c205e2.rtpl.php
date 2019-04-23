@@ -1,4 +1,4 @@
-<style type="text/css">
+<?php if(!class_exists('Rain\Tpl')){exit;}?><style type="text/css">
     nav.navbar {
         display: none;
     }
@@ -51,7 +51,7 @@
                     </form>
                 </div>
                 <p class="has-text-grey">
-                    <a href="../">Cadastrar-se</a> &nbsp;·&nbsp;
+                    <a href="./views/cadLogin.html">Cadastrar-se</a> &nbsp;·&nbsp;
                     <a href="../">Esqueceu a Senha</a> &nbsp;·&nbsp;
                     <a href="../">Precisa de Ajuda?</a>
                 </p>
